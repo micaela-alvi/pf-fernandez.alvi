@@ -59,6 +59,7 @@ footer ul li a {
     margin: 1rem;
     flex-direction: column;
     align-self: center;
+    gap: 20px;
 }
 
 .presentacion .video {
