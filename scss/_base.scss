@@ -15,7 +15,7 @@ img {
     object-fit: cover;
 }
 body{
-    background-color: pink;
+    background: linear-gradient(pink, rgb(195, 120, 132), rgb(221, 133, 147))
 }
 .titulo-seccion {
     font-size: 2.5rem;
@@ -23,6 +23,7 @@ body{
     margin-bottom: 0.5rem;
     margin-top: 1rem;
     font-family: cursive;
+    text-shadow: 2px 2px 5px rgb(111, 110, 110);
 }
 @mixin flexbox($direction) {
     display: flex;
