@@ -1,0 +1,32 @@
+.news-container {
+    display: none;
+}
+.noticia {
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+    text-align: justify;
+
+    & img {
+        border: solid 5px black;
+    }
+}
+@media (min-width: 1200px) {
+.news-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    & a img {
+        display: flex;
+        border: 2px solid black;
+        border-radius: 6px;
+        margin: 5px;
+        height: 50vh;
+        max-width: 300px;
+        object-fit: cover;
+    }
+}
+}

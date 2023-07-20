@@ -1,0 +1,44 @@
+.contenedor-cartelera {
+    display: flex;
+    flex-direction: column;
+}
+.foto-link {
+    margin: 15px;
+    & a {
+        display: flex;
+        justify-content: center;
+        border: 2px solid black;
+        border-radius: 6px;
+        padding: 10px;
+        height: 50vh;
+        background-color: black;
+        & img {
+            max-width: 100%;
+            max-height: 640px;
+            object-fit: contain;
+            border-radius: 6px;
+        }
+    }
+}
+.descripcion {
+    margin: 15px;
+    border: 1px solid #aaaaaa;
+    & tr td {
+        padding: 4px;
+        border: 1px solid #aaaaaa;
+        & .tabla-titulo {
+            padding: 0px 10px;
+            font-weight: 700;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .contenedor-cartelera {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding: none;
+        margin: none;
+    }
+} 

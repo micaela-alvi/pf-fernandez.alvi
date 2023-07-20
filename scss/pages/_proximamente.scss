@@ -1,0 +1,13 @@
+.contenedor-proximamente {
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 1200px) {
+    .contenedor-proximamente {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding: none;
+        margin: none;
+    }
+}
