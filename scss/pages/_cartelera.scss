@@ -1,6 +1,5 @@
 .contenedor-cartelera {
-    display: flex;
-    flex-direction: column;
+    @include flexbox(column);
 }
 .foto-link {
     margin: 15px;

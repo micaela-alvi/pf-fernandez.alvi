@@ -2,21 +2,16 @@
     display: none;
 }
 .noticia {
-    display: flex;
-    margin: 1rem;
-    flex-direction: column;
-    align-self: center;
-    gap: 20px;
-    text-align: justify;
+    @include flexbox(column);
+    @include noticia-review;
 
     & img {
         border: solid 5px black;
     }
 }
 @media (min-width: 1200px) {
-    .news-container {
-        display: flex;
-        flex-direction: row;
+.news-container {
+    @include flexbox(row);
         justify-content: center;
     
         & a img {

@@ -24,3 +24,13 @@ body{
     margin-top: 1rem;
     font-family: cursive;
 }
+@mixin flexbox($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+@mixin noticia-review {
+    margin: 1rem;
+    align-self: center;
+    gap: 20px;
+    text-align: justify;
+}

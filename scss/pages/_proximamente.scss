@@ -1,6 +1,5 @@
 .contenedor-proximamente {
-    display: flex;
-    flex-direction: column;
+    @include flexbox(column);
 }
 @media (min-width: 1200px) {
     .contenedor-proximamente {
