@@ -1,10 +1,9 @@
 .news-container {
     display: none;
 }
-.noticia {
+.review {
     @include flexbox(column);
     @include noticia-review;
-
     & img {
         border: solid 5px black;
     }
@@ -24,4 +23,19 @@
             object-fit: cover;
         }
     }
-    }
+.review {
+    @include flexbox(column);
+        justify-content: space-around;
+        margin: 1rem;
+        align-self: center;
+        gap: 20px;
+        & img {
+            max-width: 100%;
+            max-height: 640px;
+            object-fit: contain;
+            margin: 5px;
+            background-color: pink;
+            border-radius: 6px;
+        }
+}
+}

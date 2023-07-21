@@ -25,6 +25,9 @@ body{
     font-family: cursive;
     text-shadow: 2px 2px 5px rgb(111, 110, 110);
 }
+h3 {
+    text-decoration: underline;
+}
 @mixin flexbox($direction) {
     display: flex;
     flex-direction: $direction;
