@@ -15,13 +15,21 @@
     justify-content: center;
 
     & a img {
-        display: flex;
         border: 2px solid black;
         border-radius: 6px;
         margin: 5px;
         height: 50vh;
         max-width: 300px;
         object-fit: cover;
+
+        &:hover {
+            opacity: 0.5;
+        }
     }
+}
+.noticia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 }
