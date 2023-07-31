@@ -26,12 +26,17 @@ body {
   text-align: center;
   margin-bottom: 0.5rem;
   margin-top: 1rem;
-  font-family: cursive;
+  font-family: "Dancing Script", cursive, sans-serif;
   text-shadow: 2px 2px 5px rgb(111, 110, 110);
 }
 
 h3 {
   text-decoration: underline;
+}
+
+.logo {
+  max-width: 70px;
+  max-height: 70px;
 }
 
 .titulo {
@@ -93,6 +98,9 @@ footer ul li a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+  .contenedor-galeria img:hover {
+    transform: scale(1.2);
   }
   .presentacion {
     display: flex;
@@ -197,7 +205,7 @@ footer ul li a {
   text-align: justify;
 }
 .review img {
-  border: solid 5px black;
+  border: 5px solid black;
 }
 
 @media (min-width: 1200px) {
@@ -207,7 +215,6 @@ footer ul li a {
     justify-content: center;
   }
   .news-container a img {
-    display: flex;
     border: 2px solid black;
     border-radius: 6px;
     margin: 5px;
@@ -236,6 +243,9 @@ footer ul li a {
     grid-template-rows: 1fr;
     padding: none;
     margin: none;
+  }
+  .foto-link:hover {
+    transform: scale(1.1);
   }
 }
 

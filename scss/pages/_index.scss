@@ -30,6 +30,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+
+        & img:hover {
+        transform: scale(1.2)
+        }
     }
     .presentacion {
         @include flexbox(row);

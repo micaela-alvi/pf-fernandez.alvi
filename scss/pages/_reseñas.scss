@@ -5,7 +5,7 @@
     @include flexbox(column);
     @include noticia-review;
     & img {
-        border: solid 5px black;
+    border: 5px solid black;
     }
 }
 @media (min-width: 1200px) {
@@ -14,7 +14,6 @@
         justify-content: center;
 
         & a img {
-            display: flex;
             border: 2px solid black;
             border-radius: 6px;
             margin: 5px;

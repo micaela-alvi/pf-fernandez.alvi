@@ -21,11 +21,15 @@ body{
     text-align: center;
     margin-bottom: 0.5rem;
     margin-top: 1rem;
-    font-family: cursive;
+    font-family: 'Dancing Script', cursive, sans-serif;
     text-shadow: 2px 2px 5px rgb(111, 110, 110);
 }
 h3 {
     text-decoration: underline;
+}
+.logo {
+    max-width: 70px;
+    max-height: 70px;
 }
 @mixin flexbox($direction) {
     display: flex;
